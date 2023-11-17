@@ -14,9 +14,9 @@ function App() {
   
   return (
     <>
-      {/* <Navbar onSearch={handleNavbarSearch}/>
-      <Events searchTerm={searchTerm}/> */}
-      <SignupForm />
+      <Navbar onSearch={handleNavbarSearch}/>
+      <Events searchTerm={searchTerm}/>
+      {/* <SignupForm /> */}
     </>
   )
 }
